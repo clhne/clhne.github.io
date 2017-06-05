@@ -90,33 +90,7 @@ type: page
 
 ## 框架&脚手架
 
-### webpack
 
-* [Webpack 中文指南 -赵达](https://www.gitbook.com/book/zhaoda/webpack/details)
-
-* [Webpack傻瓜式指南（一） -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20367175)
-
-* [Webpack傻瓜指南（二）开发和部署技巧 -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20397902)
-
-* [Webpack傻瓜指南（三）和React配合开发 -前端外刊评论 知乎专栏](http://zhuanlan.zhihu.com/FrontendMagazine/20522487)
-
-    上述傻瓜指南的原始出处 [https://github.com/vikingmute/webpack-for-fools](https://github.com/vikingmute/webpack-for-fools) Webpack傻瓜式指南
-
-* [Webpack，101入门体验 -Yika](http://www.html-js.com/article/3009)
-
-* [Webpack 入门指迷 -题叶](https://segmentfault.com/a/1190000002551952)
-
-* [https://webpack.github.io/ Webpack 官网](https://webpack.github.io/)
-
-
-### Vue
-
-* [awesome-vue](https://github.com/vuejs/awesome-vue)
-* [Vue.js 和 Webpack（一） -Randy Lu](http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/)
-* [Vue.js 和 Webpack（二） -Randy Lu](http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/)
-* [Vue.js 和 Webpack（三） -Randy Lu](http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/)
-* [Vuejs 1.0 中文系列视频教程 -Laravist](https://laravist.com/series/vue-js-1-0-in-action-series)
-* [Vuejs-QQ群 相关资料](https://github.com/jsfront/src/blob/master/vuejs.md) 来自豪情
 
 
 ### React
@@ -230,21 +204,14 @@ Syntax Theme: Atom Dark or One Dark
 * [Chrome扩展及应用开发 -图灵电子书](http://www.ituring.com.cn/minibook/950)
 
 * [有哪些鲜为人知却非常有意思、好用的 Chrome 扩展？ -知乎](https://www.zhihu.com/question/23228162#answer-28057391)
-* [Dribbble New Tab](https://chrome.google.com/webstore/detail/dribbble-new-tab/hmhjbefkpednjogghoibpejdmemkinbn)
-
-    新建 tab 时，显示 dribbble 上的精选作品。
 
 ## Other blogs
 
-- [COLORFUL xiaoa](http://www.xiaoa.name/)
+
 
 * [进击的马斯特 http://pinkyjie.com/](http://pinkyjie.com/)
 
     马斯特，87年生人，爱溜冰的码农。技术： Javascript、Python、Mac、iOS
-
-* [Jerry Qu](https://imququ.com/)
-
-    JerryQu，奇虎 360，前端开发，前百度前端。
 
 * [码志 https://mazhuang.org/](https://mazhuang.org/)
 
@@ -262,8 +229,6 @@ Syntax Theme: Atom Dark or One Dark
 
     Ouvenzhang, 前端工程师，对前端领域的技术知识具有较高的职业能力和探究精神。对响应式页面设计、工程构建组件化、mv*设计实现、前端优化、ES6开发体系等有深入的研究与项目实践。来自腾讯科技。
 
-* [凳子_Joinery 邓智容  http://www.dengzhr.com/](http://www.dengzhr.com/)
-
 * [赵达的个人网站 腾讯高级前端开发工程师](http://zhaoda.net/)
 
 * [Randy](http://djyde.github.io/)
@@ -272,23 +237,6 @@ Syntax Theme: Atom Dark or One Dark
 
 * [JS前端开发群月报 -豪情等人维护](http://www.kancloud.cn/jsfront/month/82796)
 
-## 交互设计相关
-
-- [Framer](https://framerjs.com/)
-
-    Design the impossible with Framer
-
-- [FLINTO](https://www.flinto.com/)
-
-    App Prototyping Tools for Designers
-
-- [Principle](http://principleformac.com/)
-
-    Animate Your Ideas, Design Better Apps
-
-- [https://gyrosco.pe/](https://gyrosco.pe/)
-
-    首页的卡片翻动效果非常赞。
 
 ## Comments
 
