@@ -205,6 +205,10 @@ Syntax Theme: Atom Dark or One Dark
 
 * [有哪些鲜为人知却非常有意思、好用的 Chrome 扩展？ -知乎](https://www.zhihu.com/question/23228162#answer-28057391)
 
+- [Be Limitless](https://chrome.google.com/webstore/detail/be-limitless/jdpnljppdhjpafeaokemhcggofohekbp?hl=zh-CN)
+	 - Track your time and stay focused on your goals. Constantly be motivated to stay at your best.
+- [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN)
+	 - 轻松快捷地管理和切换多个代理设置。
 ## Other blogs
 
 
