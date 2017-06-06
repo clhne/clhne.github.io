@@ -1,3 +1,3 @@
-This my GitHub pages.
+My GitHub pages.
 ==========
 https://clhne.github.io
