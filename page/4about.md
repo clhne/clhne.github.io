@@ -35,7 +35,7 @@ type: page
 
 ## 关于本站
 
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/Gaohaoyang/gaohaoyang.github.io](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/clhne/clhne.github.io](https://github.com/clhne/clhne.github.io)**
 
 ~欢迎使用~
 
