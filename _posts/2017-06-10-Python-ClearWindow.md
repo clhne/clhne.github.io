@@ -32,7 +32,10 @@ Python 是一门强大的语言，奈何IDLE中没有清屏的功能，可通过
     enable_shell=1
     [ClearWindow_cfgBindings]
     clear-window=<Control-Key-;>
-- 此时，IDLE中的Options下就出现了“Clear shell window Ctrl + ;”选项，可以用“Ctrl+;”快捷键来清屏了。
+
+----------
+
+此时，IDLE中的Options下就出现了“Clear shell window Ctrl + ;”选项，可以用“Ctrl+;”快捷键来清屏了。
 
 ![](http://i.imgur.com/2lbTFl1.jpg)
 
