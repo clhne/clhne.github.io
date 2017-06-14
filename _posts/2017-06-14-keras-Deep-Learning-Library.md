@@ -2,7 +2,7 @@
 layout: post
 title:  "Keras－Deep - Learning - Library"
 date:   2017-06-14 22:32:20 
-categories: Deep Learning
+categories: Deep_Learning
 tags: keras Deep_Learning_Library
 author: CLH
 ---
