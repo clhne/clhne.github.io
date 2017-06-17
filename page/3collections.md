@@ -210,6 +210,7 @@ Syntax Theme: Atom Dark or One Dark
 - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN)
 	 - 轻松快捷地管理和切换多个代理设置。
 
+- [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
 ## Other blogs
 
 * [进击的马斯特 http://pinkyjie.com/](http://pinkyjie.com/)
