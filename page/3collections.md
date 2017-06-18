@@ -211,6 +211,9 @@ Syntax Theme: Atom Dark or One Dark
 	 - 轻松快捷地管理和切换多个代理设置。
 
 - [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
+- [Internet Download Manager (IDM)](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek?utm_source=chrome-app-launcher-info-dialog)
+    * Download files with Internet Download Manager
+
 
 ## Other blogs
 
