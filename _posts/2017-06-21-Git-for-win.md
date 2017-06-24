@@ -11,6 +11,6 @@ author: CLH
 {:toc}
 
 # Git for Windows #
-鉴于GFW的强大之处，提供国内下载镜像。
+鉴于GFW的强大之处，在此提供国内下载镜像。
 
 - [Git for Windows 国内下载站](https://github.com/waylau/git-for-win)
