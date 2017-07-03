@@ -25,8 +25,7 @@ author: CLH
 注：   
 winsock是Windows网络编程接口，它工作在应用层，提供与底层传输协议无关的高层数据传输编程接口，是系统内部目录，netsh winsock reset可将其恢复到默认状态。   
    
-`netsh winsock reset`  
-命令可以解决由于软件冲突、病毒原因造成的参数错误问题。netsh命令行可以操作与网络相关设置的接口，比如设置IP，DNS，网卡，无线网络等。
+`netsh winsock reset`命令可以解决由于软件冲突、病毒原因造成的参数错误问题。netsh命令行可以操作与网络相关设置的接口，比如设置IP，DNS，网卡，无线网络等。
 
 ----------
 [Ref]：  
