@@ -13,14 +13,15 @@ author: CLH
 # Virtual Wifi #
 Win7系统自带微软虚拟WiFi迷你适配器（Microsoft Virtual WiFi Miniport Adapter），允许其它网络用户连接此电脑的网络连接，开启方法，在CMD命令提示符下输入： 
   
-    netsh wlan set hostednetwork mode=allow ssid=VirtualNetworkName  key=Password		//启用承载网络  
-    netsh wlan start hostednetwork														//启用虚拟WiFi承载网络   
+    netsh wlan set hostednetwork mode=allow ssid=VirtualNetworkName  key=Password		//启用承载网络   
+  
+    netsh wlan start hostednetwork											//启用虚拟WiFi承载网络   
 
-	netsh wlan show hostednetwork														//查看所连接的设备     
+	netsh wlan show hostednetwork											//查看所连接的设备     
 
-	netsh wlan stop hostednetwork														//关闭虚拟WiFi承载网络   
+	netsh wlan stop hostednetwork											//关闭虚拟WiFi承载网络   
 
-	netsh wlan set hostednetwork mode=disallow											//禁用承载网络    
+	netsh wlan set hostednetwork mode=disallow								//禁用承载网络    
 
 
 
