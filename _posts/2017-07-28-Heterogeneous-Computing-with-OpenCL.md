@@ -60,7 +60,7 @@ clFinishi: 实现设备间数据共享；
 
 ----------
 #### OpenCL 数据类型 ####
-![](http://i.imgur.com/pXoKBYF.jpg)    
+![](http://i.imgur.com/jse2aNM.jpg)   
 
 ----------
 
