@@ -15,7 +15,7 @@ OpenCL（GPU）程序，计算两个向量的加法，与CPU计算结果相比�
 ![](http://i.imgur.com/cuIQJlG.jpg)     
 
 
-[source code]()   
+[source code](https://github.com/clhne/clhne.github.io/tree/master/src/vecadd)   
 
 ----------
 【Ref】：     
