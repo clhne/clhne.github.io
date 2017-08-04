@@ -1,4 +1,4 @@
-#define __NO_STD_VECTOR
+#define __NO_STD_VECTOR			//Use cl::vector instead of STL version
 #define __CL_ENABLE_EXCEPTIONS
 #include <iostream>
 #include <fstream>
