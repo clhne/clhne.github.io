@@ -59,11 +59,11 @@ kernel的执行需要通过一个入队函数来进行分发。
 4. image被分配到全局内存，访问限定符(__read_only, __write_only和__read_write)可以随意指定，因为它们与编译器和硬件优化相关。
 
 #### 内存对象地址空间标识符 ####
-	__global					/* memory allocated from global address space */
-	__constant					/* a special type of read-only memory */
-	__local						/* memory shared by a work-group */
-	__private					/* private per work-item memory */
-	__read_only || __write_only	/* used for image */
+	__global		/* memory allocated from global address space */
+	__constant		/* a special type of read-only memory */
+	__local		/* memory shared by a work-group */
+	__private		/* private per work-item memory */
+	__read_only || __write_only		/* used for image */
       
 kernel函数参数如果是内存对象，那么一定是__global,_local或constant。
 
