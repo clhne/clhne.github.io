@@ -1,0 +1,13 @@
+﻿生成启动时间为 2017/8/7 15:49:18。
+     1>项目“E:\OpenCL\simple_multiply\simple_multiply\simple_multiply.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Software\VS Ultimate 2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         D:\Software\VS Ultimate 2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCL\simple_multiply\Debug\simple_multiply.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\AMD APP\lib\x86" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenCL\simple_multiply\Debug\simple_multiply.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenCL\simple_multiply\Debug\simple_multiply.lib" /MACHINE:X86 Debug\main.obj
+         simple_multiply.vcxproj -> E:\OpenCL\simple_multiply\Debug\simple_multiply.exe
+     1>已完成生成项目“E:\OpenCL\simple_multiply\simple_multiply\simple_multiply.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.92
