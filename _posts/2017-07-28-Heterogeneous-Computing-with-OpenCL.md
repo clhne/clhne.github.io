@@ -63,7 +63,7 @@ kernel的执行需要通过一个入队函数来进行分发。
 	__constant					/* a special type of read-only memory */
 	__local						/* memory shared by a work-group */
 	__private					/* private per work-item memory */
-	__read_only || __write_only	/* used for image */
+	__read_only || __write_only			/* used for image */
       
 kernel函数参数如果是内存对象，那么一定是__global,_local或constant。
 
