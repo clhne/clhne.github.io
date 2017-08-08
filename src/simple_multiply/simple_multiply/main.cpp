@@ -1,4 +1,85 @@
-﻿#include <CL/cl.h>
+﻿#if(1)
+//matrix multiply sequential implement
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+//C sequential implement
+void mat_fuc(int Ndim,int Mdim,int Pdim,float* A,float* B,float* C)
+{
+	int i,j,k;
+	float temp;
+
+	for(i = 0; i < Ndim; ++i){
+		for(j = 0; j < Mdim; ++j){
+			temp = 0.0;
+			for(k = 0; k < Pdim; ++k){
+				temp = temp + A[i * Pdim + k] * B[k * Mdim + j];
+				C[i * Mdim + j] = temp;
+			}
+		}
+	}
+}
+
+int main()
+{
+	const int Ndim = 2;
+	const int Pdim = 3;
+	const int Mdim = 4;
+	int szA = Ndim * Pdim;
+	int szB = Pdim * Mdim;
+	int szC = Ndim * Mdim;
+
+	float* A;
+	float* B;
+	float* C;
+
+	A = (float *)malloc(szA * sizeof(float));
+	B = (float *)malloc(szB * sizeof(float));
+	C = (float *)malloc(szC * sizeof(float));
+
+	for (int i = 0; i < szA; ++i)
+		A[i] = (float)((float)i + 1.0);
+	for (int j = 0; j < szB; ++j)
+		B[j] = (float)((float)j + 1.0);
+
+	mat_fuc(Ndim,Mdim,Pdim,A,B,C);
+
+	for(int i = 0; i < Ndim; ++i)
+	{
+		for(int j = 0; j< Pdim; ++j)
+			printf("%.3f\t",A[i * Pdim + j]);
+		printf("\n");
+	}
+
+	cout<<endl;
+
+	for(int i = 0; i < Pdim; ++i)
+	{
+		for(int j = 0; j< Mdim; ++j)
+			printf("%.3f\t",B[i * Mdim + j]);
+		printf("\n");
+	}
+
+	cout<<endl;
+
+	for(int i = 0; i < Ndim; ++i)
+	{
+		for(int j = 0; j< Mdim; ++j)
+			printf("%.3f\t",C[i * Mdim + j]);
+		printf("\n");
+	}
+	
+	system("pause");
+}
+
+#endif
+
+
+#if(0)
+
+#include <CL/cl.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -194,6 +275,7 @@ int main()
 	}
 
 	cout << endl;
+	printf("C语言中数组按行读取数组元素 A[3] = %.3f\n",A[3]);
 
 	if (A)
 		free(A);
@@ -209,7 +291,10 @@ int main()
 	clReleaseProgram(program);
 	clReleaseCommandQueue(commandQueue);
 	clReleaseContext(context);
-	system("pause");
+	
 
+	system("pause");
 	return 0;
 }
+
+#endif
