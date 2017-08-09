@@ -39,7 +39,6 @@ DPM是一个比较成功的目标检测算法，被应用到姿态估计、人�
 
 同样也可以利用OpenCV自带的cartToPolar函数：
 
-----------
 	Mat mag, angle;
 	cartToPolar(gx, gy, mag, angle, 1);
    
@@ -72,14 +71,11 @@ Right:  The gradients in the same patch represented as numbers.
 
 8×8cells中所有像素的贡献叠加，最终形成了9bin的直方图，对上面的图像块，直方图类似下图：     
 ![](http://i.imgur.com/gRXwTf6.png)
+
 4.16×16 Block 标准化   
 标准化可以消除比例的影响，从而对亮度更具鲁棒性；比如v1=[3, 4]，向量的长度为5（L2 norm，2范数），标准化后为v1'= [0.6, 0.8]；v2 = 2*v1 = [6, 8]，标准化后也是v2'= [0.6, 0.8]。
 
 ![](http://i.imgur.com/QSKpqkn.gif)
-
-
-
-
 
 
 [source code](https://github.com/clhne/clhne.github.io/tree/master/src/vecadd)   
