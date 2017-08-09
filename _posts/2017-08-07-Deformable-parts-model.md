@@ -78,7 +78,10 @@ Right:  The gradients in the same patch represented as numbers.
 ![](http://i.imgur.com/QSKpqkn.gif)
 
 
-[source code](https://github.com/clhne/clhne.github.io/tree/master/src/vecadd)   
+[source code HOG 1](https://github.com/DaHoC/trainHOG)   
+[source code HOG 2](https://github.com/fabioperez/transito-cv)     
+
+
 
 【Ref】：     
 [1] [Object Detection with Discriminatively Trained
