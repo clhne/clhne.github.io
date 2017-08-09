@@ -2,7 +2,7 @@
 layout: post
 title:  "Deformable Parts Model"
 date:   2017-08-07 17：23：00
-categories:  Face Detection and Alignment
+categories:  Face_Detection
 tags: Algorithm
 author: CLH
 ---
@@ -86,7 +86,7 @@ Right:  The gradients in the same patch represented as numbers.
 [1] [Object Detection with Discriminatively Trained
 Part Based Models](https://cs.brown.edu/~pff/papers/lsvm-pami.pdf)  
 [2] [Cascade Object Detection with Deformable Part Models∗](https://cs.brown.edu/~pff/papers/cascade.pdf)   
-[3] [source code](http://www.rossgirshick.info/latent/)      
+[3] [source code DPM](http://www.rossgirshick.info/latent/)      
 [4] [The representation and matching of pictorial structures](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.118.7951&rep=rep1&type=pdf)      
 [5] [Image Recognition and Object Detection : Part 1](https://www.learnopencv.com/image-recognition-and-object-detection-part1/)
 	
