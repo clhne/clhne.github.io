@@ -2,7 +2,7 @@
 layout: post
 title:  "Github Pages and Jekyll Tutorial"
 date:   2017-06-01 12：36：00
-categories: GitHub Pages
+categories: GitHub_Pages
 tags: GitHub Pages
 author: CLH
 ---
