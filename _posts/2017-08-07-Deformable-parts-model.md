@@ -79,8 +79,7 @@ Right:  The gradients in the same patch represented as numbers.
 
 
 [source code HOG 1](https://github.com/DaHoC/trainHOG)   
-[source code HOG 2](https://github.com/fabioperez/transito-cv)     
-
+[source code HOG 2](https://github.com/fabioperez/transito-cv)
 
 
 【Ref】：     
