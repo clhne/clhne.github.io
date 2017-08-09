@@ -36,6 +36,7 @@ DPM是一个比较成功的目标检测算法，被应用到姿态估计、人�
 
 然后，计算梯度的幅度的方向：  
 ![](http://i.imgur.com/fe5k1Zl.jpg)
+
 同样也可以利用OpenCV自带的cartToPolar函数：
 
 ----------
@@ -45,7 +46,7 @@ DPM是一个比较成功的目标检测算法，被应用到姿态估计、人�
 梯度图像示意图：
 ![](http://i.imgur.com/dZ3bFOY.jpg)   
 梯度图像去除了大量的不必要的信息，突出了图像的轮廓    
-3. 计算8×8cells的梯度直方图   
+3.计算8×8cells的梯度直方图   
 首先将图像分成8×8大小的图像块，并计算每个图像块的梯度直方图； 
 ![](http://i.imgur.com/vBgCe52.jpg)     
 为什么将图像分成大小为8×8的图像块？这是为了利用特征描述符对图像块进行压缩表示，一个8×8图像块包含8×8×3=192个像素值，图像块的每个像素的梯度又包含2个值（幅度和方向），总共8×8×2=128numbers；图像块表示法对噪声具有更强的鲁棒性。    
@@ -71,14 +72,14 @@ Right:  The gradients in the same patch represented as numbers.
 
 8×8cells中所有像素的贡献叠加，最终形成了9bin的直方图，对上面的图像块，直方图类似下图：     
 ![](http://i.imgur.com/gRXwTf6.png)
-4. 16×16 Block 标准化   
+4.16×16 Block 标准化   
 标准化可以消除比例的影响，从而对亮度更具鲁棒性；比如v1=[3, 4]，向量的长度为5（L2 norm，2范数），标准化后为v1'= [0.6, 0.8]；v2 = 2*v1 = [6, 8]，标准化后也是v2'= [0.6, 0.8]。
 
 ![](http://i.imgur.com/QSKpqkn.gif)
 
 
 
-----------
+
 
 [source code](https://github.com/clhne/clhne.github.io/tree/master/src/vecadd)   
 
