@@ -18,13 +18,16 @@ DPM是一个比较成功的目标检测算法，被应用到姿态估计、人�
 
 2. 计算梯度图像，首先计算水平和垂直梯度，可以通过下面的kernels对图像滤波实现：     
 ![](http://i.imgur.com/xeEeA07.jpg)  
-也可以通过OpenCV中的Sobel算子来实现:   
-                     
-     
-    //C++ Gradient calculation    
-	//Read image    
-    Mat img = imread("xxx.jpg");   
-	img.convertTo(img,CV_32F,1/255.0)        
+也可以通过OpenCV中的Sobel算子来实现:
+
+----------
+
+    //C++ Gradient calculation
+    //Read image        
+    Mat img = imread("xxx.jpg"); 
+	img.convertTo(img,CV_32F,1/255.0);     
+
+   
  
 
 [source code](https://github.com/clhne/clhne.github.io/tree/master/src/vecadd)   
