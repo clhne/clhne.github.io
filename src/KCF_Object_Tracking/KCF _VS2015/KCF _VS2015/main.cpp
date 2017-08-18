@@ -16,6 +16,7 @@
 #include <opencv2/core/ocl.hpp>
 #include <iostream>
 #include <cstring>
+#include <fstream>
 
 using namespace std;
 using namespace cv;
@@ -59,7 +60,7 @@ int main(int argc, char** argv) {
 	BoxExtractor box;
 
 	// create the tracker
-	Ptr<Tracker> tracker = Tracker::create("KCF");//TLD MIL
+	Ptr<Tracker> tracker = Tracker::create("TLD");//KCF TLD MIL
 
 												  // set input video
 	std::string video = argv[1];
@@ -82,7 +83,8 @@ int main(int argc, char** argv) {
 	//roi = { 194 , 86, 42, 20 };//RedTeam
 	//roi = Rect{ 139 , 146, 46, 76 };//Doll
 	//roi = { 285, 142, 42, 49 };//Boy
-	//roi = Rect(155, 105, 28, 35);
+	roi = Rect(246,	226, 94, 114);
+	//roi = Rect(288, 143, 35, 42);
 	//quit if ROI was not selected
 	if (roi.width == 0 || roi.height == 0)
 		return 0;
@@ -95,6 +97,7 @@ int main(int argc, char** argv) {
 	cout << "VIDEO source resolution is : " << frame.cols << " * " << frame.rows << endl;
 	cout << "ROI SIZE is : " << roi.width << " * " << roi.height << endl;
 #endif
+
 
 	// do the tracking
 	printf("Start the tracking process, press ESC to quit.\n");
@@ -115,6 +118,14 @@ int main(int argc, char** argv) {
 
 		// update the tracking result
 		tracker->update(frame, roi);
+
+
+		// save ROI data
+		ofstream fout("roi.txt",ios::app);
+		fout << roi.x << "," << roi.y << "," << roi.width << "," << roi.height << endl;
+
+		fout << flush;
+		fout.close();
 
 		double GFTTtime = (cvGetTickCount() - GFTTtimestart) / (cvGetTickFrequency() * 1000);
 		cout << "Current tracking performance: " << (1000.0 / GFTTtime) << "fps" << endl;
@@ -228,7 +239,6 @@ Rect2d BoxExtractor::extract(const std::string& windowName, Mat img, bool showCr
 		//get keyboard event
 		key = waitKey(1);
 	}
-
-
+	
 	return params.box;
 }
