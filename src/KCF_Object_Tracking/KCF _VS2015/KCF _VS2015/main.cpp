@@ -7,7 +7,7 @@
 * example_tracking_kcf faceocc2.webm
 *--------------------------------------------------*/
 
-//
+//KCF Object Tracking
 
 #include <opencv2/core/utility.hpp>
 #include <opencv2/tracking.hpp>
