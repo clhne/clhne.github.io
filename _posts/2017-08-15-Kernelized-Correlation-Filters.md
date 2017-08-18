@@ -15,14 +15,8 @@ author: CLH
   
 相关滤波(Correlation Filter, CF)是对[MOSSE算法](http://www.cs.colostate.edu/~vision/publications/bolme_cvpr10.pdf)的改进，是后来CSK、STC、Color Attributes等Trackers的鼻祖，CF源于信号处理，后被用于图像分类；CF用于Tracking的思想是：两个信号越相似，其相关值越高；通过滤波模板，当作用于跟踪目标时，得到的响应最大，最大响应值的位置就是目标的位置([参考](http://www.cnblogs.com/hanhuili/p/4266990.html))。    
      
-[CSK](http://www.robots.ox.ac.uk/~joao/publications/henriques_eccv2012.pdf)是CF算法改进的初级版本，[KCF](https://arxiv.org/pdf/1404.7584.pdf)是对CSK进一步的改进。将只能用单通道的灰度特征改进为可以使用多通道的HOG特征，使用核函数计算偶相关滤波。
+[CSK](http://www.robots.ox.ac.uk/~joao/publications/henriques_eccv2012.pdf)是CF算法改进的初级版本，[KCF](https://arxiv.org/pdf/1404.7584.pdf)是对CSK进一步的改进。将只能用单通道的灰度特征改进为可以使用多通道的HOG特征，使用核函数计算偶相关滤波。   
 
-
-
-
-
-
-      
 运行环境：VS2015 + OpenCV3.2.0_withsource，首先配置环境变量：   
 1. “项目属性页”->“VC++目录”->“包含目录”，添加三个库目录：D:\opencv-3.2.0_withsource\build\install\include、D:\opencv-3.2.0_withsource\build\install\include\opencv、D:\opencv-3.2.0_withsource\build\install\include\opencv2；      
 2. “项目属性”->“VC++目录”->"库目录“，添加库目录：D:\opencv-3.2.0_withsource\build\install\x86\vc14\lib；    
