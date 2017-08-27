@@ -197,31 +197,33 @@ Syntax Theme: Atom Dark or One Dark
     <!-- ![](http://ww4.sinaimg.cn/large/7011d6cfjw1f08kmplbj1j20gn05l0tk.jpg) -->
 
 ## Chrome 插件
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom?utm_source=chrome-app-launcher-info-dialog)      
+	* 最受欢迎的Chrome扩展，拥有超过4000万用户！屏蔽整个互联网上的广告。     
+
 - [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+    * Code tree for GitHub and GitLab      
 
-    - Code tree for GitHub and GitLab
+- [Chrome扩展及应用开发 -图灵电子书](http://www.ituring.com.cn/minibook/950)
 
-* [Chrome扩展及应用开发 -图灵电子书](http://www.ituring.com.cn/minibook/950)
+- [有哪些鲜为人知却非常有意思、好用的 Chrome 扩展？ -知乎](https://www.zhihu.com/question/23228162#answer-28057391)     
 
-* [有哪些鲜为人知却非常有意思、好用的 Chrome 扩展？ -知乎](https://www.zhihu.com/question/23228162#answer-28057391)
+- [Be Limitless](https://chrome.google.com/webstore/detail/be-limitless/jdpnljppdhjpafeaokemhcggofohekbp?hl=zh-CN)     
+	 - Track your time and stay focused on your goals. Constantly be motivated to stay at your best.        
+- [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN)       
+	 - 轻松快捷地管理和切换多个代理设置。       
 
-- [Be Limitless](https://chrome.google.com/webstore/detail/be-limitless/jdpnljppdhjpafeaokemhcggofohekbp?hl=zh-CN)
-	 - Track your time and stay focused on your goals. Constantly be motivated to stay at your best.
-- [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=zh-CN)
-	 - 轻松快捷地管理和切换多个代理设置。
-
-- [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
-- [Internet Download Manager (IDM)](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek?utm_source=chrome-app-launcher-info-dialog)
-    * Download files with Internet Download Manager   
+- [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)      
+- [Internet Download Manager (IDM)](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek?utm_source=chrome-app-launcher-info-dialog)       
+    * Download files with Internet Download Manager    
     
-- [护眼助手](https://chrome.google.com/webstore/detail/%E6%8A%A4%E7%9C%BC%E5%8A%A9%E6%89%8B/jcgegmednhgdjhigllllokbeclbggcga?hl=zh-CN)
+- [护眼助手](https://chrome.google.com/webstore/detail/%E6%8A%A4%E7%9C%BC%E5%8A%A9%E6%89%8B/jcgegmednhgdjhigllllokbeclbggcga?hl=zh-CN)     
 	* 修改网页背景色为豆沙绿，更加护眼，随时开启/关闭     
 
-- [购物党全网自动比价工具](https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E7%BE%8E%E4%BA%9A%E6%97%A5%E4%BA%9A%E6%AF%94%E4%BB%B7%E3%80%8118/jgphnjokjhjlcnnajmfjlacjnjkhleah?hl=zh-CN)
-	* 浏览商品页面时，自动比较同款商品在淘宝/京东/亚马逊/当当/苏宁/等百家商城的最低价，提供价格历史、口碑评分等查询。支持商品促销活动，商城优惠信息查询，商品可全网收藏，降价提醒。支持链家、我爱我家、中原地产等主流房产网站房源价格走势查询，为买房人士提供决策参考。    
+- [购物党全网自动比价工具](https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E7%BE%8E%E4%BA%9A%E6%97%A5%E4%BA%9A%E6%AF%94%E4%BB%B7%E3%80%8118/jgphnjokjhjlcnnajmfjlacjnjkhleah?hl=zh-CN)      
+	* 浏览商品页面时，自动比较同款商品在淘宝/京东/亚马逊/当当/苏宁/等百家商城的最低价，提供价格历史、口碑评分等查询。支持商品促销活动，商城优惠信息查询，商品可全网收藏，降价提醒。支持链家、我爱我家、中原地产等主流房产网站房源价格走势查询，为买房人士提供决策参考。     
 
-- [惠惠购物助手](https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN)
-	* 【网易出品】在您网购浏览商品的同时，自动对比其他优质电商同款商品价格，并提供商品价格历史，帮您轻松抄底，聪明网购不吃亏！     
+- [惠惠购物助手](https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN)      
+	* 【网易出品】在您网购浏览商品的同时，自动对比其他优质电商同款商品价格，并提供商品价格历史，帮您轻松抄底，聪明网购不吃亏！      
 
 
 
