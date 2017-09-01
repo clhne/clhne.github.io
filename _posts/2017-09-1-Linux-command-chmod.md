@@ -12,22 +12,24 @@ author: CLH
 
 # chmod 命令 #
 chmod命令用来改变linux文件的权限，通常情况下文件有四种用户类型和六种用户权限：
-三种身份：    
-1. u user 文件所有者    
-2. g group 文件所属组    
-3. o others 其他用户    
-4. a all 所有用户
+三种身份：   
+ 
+	1. u user 文件所有者    
+	2. g group 文件所属组    
+	3. o others 其他用户    
+	4. a all 所有用户  
 四种权限：    
-1. w write 写   
-2. r read 读
-3. x execute 执行   
-4. X 特殊执行权限，只有当文件为目录文件，或者其他类型的用户有可执行权限时，才将文件权限设置为可执行    
-5. s setuid/gid 当文件被执行时，根据who参数指定的用户类型设置文件的setuid或者setgid权限    
-6. t 粘贴位 设置粘贴位，只有超级用户可以设置该位，只有文件所有者u可以使用该位。   
+
+	1. w write 写   
+	2. r read 读
+	3. x execute 执行   
+	4. X 特殊执行权限，只有当文件为目录文件，或者其他类型的用户有可执行权限时，才将文件权限设置为可执行    
+	5. s setuid/gid 当文件被执行时，根据who参数指定的用户类型设置文件的setuid或者setgid权限    
+	6. t 粘贴位 设置粘贴位，只有超级用户可以设置该位，只有文件所有者u可以使用该位。   
 
 
 ## 语法 ##
-chmod [options] mode[,mode] file1 [file2 ...]
+    chmod [options] mode[,mode] file1 [file2 ...]
 
 ### mode ####
 可为符号模式或者八进制语法，chmod的八进制语法如下：  
