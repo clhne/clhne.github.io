@@ -49,6 +49,9 @@ eg：
 ①设置权限：  
   
 	chmod u+x filename.sh   为file脚本文件所有者设置可执行权限   
+
+----------
+
 ②执行：      
    
 	./filename.sh    
