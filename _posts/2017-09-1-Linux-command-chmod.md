@@ -12,13 +12,17 @@ author: CLH
 
 # chmod 命令 #
 chmod命令用来改变linux文件的权限，通常情况下文件有四种用户类型和六种用户权限：
-三种身份：   
+四种用户类型：   
  
 	1. u user 文件所有者    
 	2. g group 文件所属组    
 	3. o others 其他用户    
 	4. a all 所有用户  
-四种权限：    
+
+
+----------
+	
+六种用户权限：    
 
 	1. w write 写   
 	2. r read 读
