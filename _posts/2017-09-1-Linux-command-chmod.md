@@ -30,23 +30,24 @@ chmod命令用来改变linux文件的权限，通常情况下文件有四种用�
 chmod [options] mode[,mode] file1 [file2 ...]
 
 ### mode ####
-可为符号模式或者八进制语法，chmod的八进制语法如下：    
-r 4    
-w 2    
-x 1    
-- 0    
+可为符号模式或者八进制语法，chmod的八进制语法如下：  
+
+    r 4    
+	w 2    
+	x 1    
+	- 0    
 
       
 eg：   
-①设置权限：    
-chmod u+x filename.sh   为file脚本文件所有者设置可执行权限
-②执行：    
-./filename.sh    
-or  bash filename.sh    
-or source filename.sh    
-or . filename.sh
-
-
+①设置权限：  
+  
+	chmod u+x filename.sh   为file脚本文件所有者设置可执行权限   
+②执行：      
+   
+	./filename.sh    
+	or  bash filename.sh    
+	or source filename.sh    
+	or . filename.sh
 
 【Ref】    
 [1] [Linux新手入门：通过chmod改变文件权限](http://www.letuknowit.com/topics/20120408/change-file-attributes-on-linux.html/)    
