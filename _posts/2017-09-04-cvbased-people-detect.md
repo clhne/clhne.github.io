@@ -21,4 +21,5 @@ author: CLH
     
 【Ref】    
 [1] [OpenCV2.0 peopledetect 学习体会](http://www.opencv.org.cn/forum.php?mod=viewthread&tid=9146&extra=&page=1)    
-[2] [peopledetect 行人检测](https://github.com/clhne/cvbased_peopledetect)
+[2] [peopledetect 行人检测_windows](https://github.com/clhne/cvbased_peopledetect)   
+[3] [行人检测(Pedestrian Detection)资源](http://blog.csdn.net/alada007/article/details/8088868)
