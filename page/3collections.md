@@ -224,7 +224,12 @@ Syntax Theme: Atom Dark or One Dark
 
 - [惠惠购物助手](https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb?hl=zh-CN)      
 	* 【网易出品】在您网购浏览商品的同时，自动对比其他优质电商同款商品价格，并提供商品价格历史，帮您轻松抄底，聪明网购不吃亏！      
-
+- [Android端网传附莆田系医院名单搜索软件](https://github.com/shixinzhang/BlackheartedHospitalApp)      
+	* 网传附莆田系医院名单的Android版     
+- [莆田系医院网站提醒](https://github.com/hustcc/PTHospital.chrome)    
+	* 莆田系医院网站提醒，对于莆田系无良网站，将显示红色警告提示，并给出它的医院名字和所在城市。   
+- [滚蛋吧！莆田系](https://github.com/putianxi/putianxi.github.io)     
+	* 直观列出全国的莆田系医院，让更多的人认识到莆田系医院的危害，并共同抵制莆田系医院以及其帮凶   
 
 
 ## Other blogs
