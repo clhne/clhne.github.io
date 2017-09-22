@@ -82,9 +82,7 @@ Tensorflow用计算图（Computational Graphs）的方式建立网络。
 	sess.close()    
 **执行**：    
 
-	sess.run(op)    
-
-
+	sess.run(op)
 
 
 【Ref】    
