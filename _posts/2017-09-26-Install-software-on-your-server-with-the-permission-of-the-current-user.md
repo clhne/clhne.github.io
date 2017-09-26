@@ -19,7 +19,8 @@ author: CLH
 
 	tar -xf tree_1.7.0.orig.tar.gz    
 	cd tree_1.7.0  
-	tree -a > tree.txt    
+	tree -a > tree.txt   
+ 
 目录结构如下：        
 ![](https://i.imgur.com/b6ZYWJI.jpg)      
 修改“Makefile”文件中的以下内容：     
@@ -29,10 +30,12 @@ Done！
 安装：       
 
 	make
-	make install       
+	make install 
+      
 无错误提示后，安装完成：        
 
 	tree --version       
+
 ![](https://i.imgur.com/9tVSDs3.jpg)        
 Enjoy it!      
 	
@@ -41,5 +44,6 @@ Enjoy it!
 	clear
 	Ctrl + L
 	reset   
+
 【Ref】    
 [1] [tree_1.7.0.orig.tar.gz](https://launchpad.net/ubuntu/+source/tree/1.7.0-5)    
