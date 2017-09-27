@@ -25,6 +25,7 @@ Windows和Linux下都有find命令，但是区别较大；Windows下find命令�
 3.DOS命令下findstr为find的升级版，但find命令可以统计文本文件中所包含特定字符串的行数，如统计文本文件“test.txt"中所包含的字符串”abc”的行数（/c）：
 
 	find /c "abc" test.txt
+
 4.findstr命令，在当前目录和所有子目录（/s）中查找含有”command“字符串的所有文本文件（*,findstr支持正则表达式）：    
 
 	findstr command *
@@ -46,4 +47,4 @@ Windows和Linux下都有find命令，但是区别较大；Windows下find命令�
 	or
 	find . -maxdepth 2 -iregex .*data
 
-3.Linux下的find命令搜索的关键字可加双引号也可不加   
+3.Linux下的find命令搜索的关键字可加双引号也可不加。
