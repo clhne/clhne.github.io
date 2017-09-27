@@ -47,6 +47,3 @@ Windows和Linux下都有find命令，但是区别较大；Windows下find命令�
 	find . -maxdepth 2 -iregex .*data
 
 3.Linux下的find命令搜索的关键字可加双引号也可不加   
-【Ref】    
-[1] [Linux新手入门：通过chmod改变文件权限](http://www.letuknowit.com/topics/20120408/change-file-attributes-on-linux.html/)    
-[2] [chmod wikipedia](https://zh.wikipedia.org/wiki/Chmod)
