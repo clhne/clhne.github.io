@@ -11,9 +11,12 @@ author: CLH
 {:toc}
 
 # cp 命令 #
-Linux下在使用cp命令时提示：    
+Linux下在cp命令的用法：    
  
 	cp [option]... [-T] source_dir dest_dir
+
+使用时，遇到以下错误提示：
+
 	cp: omitting directory ***
 
 错误，这是因为 source_dir下含有子目录，需要加“-r” option，即copy directories recursively :    
