@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux file format."
-date:   2017-11-20 20:36:00
+date:   2017-11-21 11:41:00
 categories:  Deep_learning_Library
 tags: Linux
 author: CLH
