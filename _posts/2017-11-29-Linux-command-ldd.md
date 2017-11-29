@@ -21,7 +21,7 @@ Usage:
 	
 	ldd  [Option]... File...     
 
-eg;    
+eg：    
 ![](https://i.imgur.com/gH1bnTP.png)     
 
 第一列：程序所依赖的库；    
