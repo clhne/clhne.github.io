@@ -2,7 +2,7 @@
 layout: post
 title:  "Heterogeneous Computing with OpenCL"
 date:   2017-07-28 9：49：00
-categories:  OpenCL_Heterogeneous_Computing
+categories:  OpenCL
 tags: OpenCL
 author: CLH
 ---

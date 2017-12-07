@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenCL Vecadd"
 date:   2017-08-03 10：23：00
-categories:  OpenCL_Heterogeneous_Computing
+categories:  OpenCL
 tags: Vecadd
 author: CLH
 ---
