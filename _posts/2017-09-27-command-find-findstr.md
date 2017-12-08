@@ -2,7 +2,7 @@
 layout: post
 title:  "find/findstr command"
 date:   2017-09-27 13：56：00
-categories:  Win_Linux
+categories:  Linux
 tags: Command
 author: CLH
 ---
