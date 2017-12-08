@@ -2,7 +2,7 @@
 layout: post
 title:  "Tensorflow-Learning"
 date:   2017-09-22 09：30：00
-categories:  Deep-Learning
+categories:  Deep_Learning
 tags: Tensorflow
 author: CLH
 ---
