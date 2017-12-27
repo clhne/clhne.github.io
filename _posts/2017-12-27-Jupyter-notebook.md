@@ -18,7 +18,7 @@ Jupyter Notebook(早期的IPython notebook）是一个交互式笔记本，支�
 
 ## 安装方法一 ##
 官网推荐的安装方式是最简单的，对于新手比较方便：    
-![](https://github.com/clhne/MY-Blogs-Images/jupyter-notebook.jpg)     
+![](https://github.com/clhne/MY-Blogs-Images/blob/master/jupyter-notebook.jpg)     
 
 
 Ref：    
