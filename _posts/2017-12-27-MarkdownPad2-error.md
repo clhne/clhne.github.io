@@ -11,7 +11,6 @@ author: CLH
 {:toc}
 
 # MarkdownPad2 Error Uploading Image #
-
 ----------
 今天在写博客（.md文件）时，MarkdownPad2竟然不能上传图片：    
      

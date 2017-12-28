@@ -21,6 +21,12 @@ Jupyter Notebook(早期的IPython notebook）是一个交互式笔记本，支�
 
 ![](https://i.imgur.com/DUEBYfS.jpg)     
 
+我的机子上同时安装了Anaconda2（Python2.7.14）和Anaconda3（Python3.6.1），在Anaconda的终端下运行下面的指令即可启动Jupyter notebook:     
+
+	Jupyter notebook   
+
+
+
 Ref：    
 [1] [Installing Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)    
 [2] [install Jupyter for Python 2.7 in Ubuntu 14.04](https://askubuntu.com/questions/847263/install-jupyter-for-python-2-7-in-ubuntu-14-04)    
