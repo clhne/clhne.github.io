@@ -27,7 +27,7 @@ Jupyter Notebook(早期的IPython notebook）是一个交互式笔记本，支�
 
 ![windows下Jupyter notebook启动页面](https://i.imgur.com/hAETvYj.jpg)    
 
-![windows下Jupyter启动后Web页面](https://imgur.com/glztwO3)     
+![windows下Jupyter启动后Web页面](https://i.imgur.com/glztwO3.jpg)     
 
 ## 安装方法二 ##
 官网推荐的第二种方法，即Python和IPython用户可选择的方法：    
