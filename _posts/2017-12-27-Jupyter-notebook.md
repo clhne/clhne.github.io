@@ -19,13 +19,41 @@ Jupyter Notebook(早期的IPython notebook）是一个交互式笔记本，支�
 ## 安装方法一 ##
 官网推荐的安装方式是最简单的，对于新手比较方便。        
 
-![](https://i.imgur.com/DUEBYfS.jpg)     
+![Jupyter notebook推荐安装方式](https://i.imgur.com/DUEBYfS.jpg)     
 
 我的机子上同时安装了Anaconda2（Python2.7.14）和Anaconda3（Python3.6.1），在Anaconda的终端下运行下面的指令即可启动Jupyter notebook:     
 
 	Jupyter notebook   
 
+![windows下Jupyter notebook启动页面](https://i.imgur.com/hAETvYj.jpg)    
 
+![windows下Jupyter启动后Web页面](https://imgur.com/glztwO3)     
+
+## 安装方法二 ##
+官网推荐的第二种方法，即Python和IPython用户可选择的方法：    
+
+![Alternative for experienced Python users: Installing Jupyter with pip](https://i.imgur.com/4v19lCJ.jpg)     
+
+## Ubuntu14.04 Python2.7.6下安装 ##
+发现安装Jupyter notebook启动不了：    
+
+![](https://i.imgur.com/5YHMrF5.jpg)    
+
+发现通过下面的命令：    
+
+	ipython notebook    
+
+可以正常启动：      
+
+![](https://i.imgur.com/3TRx0ym.jpg)     
+
+可见Jupyter早期是存在IPython 中的。启动起来后的Web页面：     
+ 
+![](https://i.imgur.com/sIm5kIu.jpg)      
+
+End...  
+
+----------
 
 Ref：    
 [1] [Installing Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/install.html)    
