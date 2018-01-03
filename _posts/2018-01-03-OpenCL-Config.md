@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OpenCL Config"
-date:   2017-11-29 21：42：00
+date:   2018-01-03 10：30：00
 categories:  OpenCL
 tags: OpenCL-config
 author: CLH
