@@ -17,9 +17,13 @@ C/C++ -> 附加包含目录：
 	C:\Program Files\AMD APP\include    
 
 
-链接器-> 附加库目录：     
+链接器 -> 附加库目录：     
 
 	C:\Program Files\AMD APP\lib\x86    
+
+链接器 -> 输入 ->附加依赖项：      
+
+	opencl.lib       
 
 头文件如下：     
 
