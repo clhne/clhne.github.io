@@ -22,7 +22,8 @@ OpenCL（GPU）程序，矩阵相乘：
 若要比较在CPU和GPU两种平台的运行时间，可以创建不同的设备：    
 
 	clGetDeviceIDs(platform,CL_DEVICE_TYPE_GPU,1,&device,NULL);	//use GPU device
-	clGetDeviceIDs(platform,CL_DEVICE_TYPE_CPU,1,&device,NULL);	//use CPU device  
+	clGetDeviceIDs(platform,CL_DEVICE_TYPE_CPU,1,&device,NULL);	//use CPU device      
+    
 当矩阵A和B的大小为：1000*1000时，使用GPU OpenCL运算所需的时间：      
 GPU：     
 
