@@ -40,4 +40,5 @@ author: CLH
 
 ![](https://i.imgur.com/YSkCkCT.png)       
 
-增加了14G！！！
+**增加了14G！！！**      
+**总之，要经常总结，总结，总结！**
