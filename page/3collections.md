@@ -229,7 +229,9 @@ Syntax Theme: Atom Dark or One Dark
 - [莆田系医院网站提醒](https://github.com/hustcc/PTHospital.chrome)    
 	* 莆田系医院网站提醒，对于莆田系无良网站，将显示红色警告提示，并给出它的医院名字和所在城市。   
 - [滚蛋吧！莆田系](https://github.com/putianxi/putianxi.github.io)     
-	* 直观列出全国的莆田系医院，让更多的人认识到莆田系医院的危害，并共同抵制莆田系医院以及其帮凶   
+	* 直观列出全国的莆田系医院，让更多的人认识到莆田系医院的危害，并共同抵制莆田系医院以及其帮凶      
+- [Code tree for GitHub](https://github.com/buunguyen/octotree)        
+	* Extension to show code tree for GitHub.      
 
 
 ## Other blogs
