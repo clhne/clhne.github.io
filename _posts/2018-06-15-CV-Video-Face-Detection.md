@@ -29,4 +29,5 @@ OpenCV python
      
 
 【Ref】  
-[1] [Tensorflow Face Detector](https://github.com/clhne/face_jlq/tree/master/face_detection/code/video_face_detection)     
+[1] [Tensorflow Face Detector](https://github.com/clhne/face_jlq/tree/master/face_detection/code/video_face_detection)      
+[2] [Video Face Detection](https://github.com/clhne/face_jlq/tree/master/face_detection/code/video_face_detection) 
