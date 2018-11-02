@@ -19,8 +19,12 @@ Result:
 ![](https://i.imgur.com/VV0CyDm.jpg)
 
 ## Dependencies ##
-scikit-image         
-     
+scikit-image          
+opencv-python     
+argparse    
+numpy    
+imutils     
+scikit-learn     
 
 【Ref】  
 [1] [Local Binary Patterns with Python & OpenCV](https://www.pyimagesearch.com/2015/12/07/local-binary-patterns-with-python-opencv/)      
