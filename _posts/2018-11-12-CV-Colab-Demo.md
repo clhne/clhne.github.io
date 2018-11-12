@@ -43,15 +43,15 @@ About: Google Colab, Google’s free cloud service for AI developers. With Colab
 	print('--------Is GPU Working?-------------------')
 	print(tf.test.is_gpu_available(cuda_only=False,min_cuda_compute_capability=None))
 	print(tf.test.gpu_device_name())
-	print('------------------------------------------')   
+	print('------------------------------------------')       
+
+![](https://i.imgur.com/p0o3EOX.jpg)  
 
 #### neofetch info ####
 
 	#ipython
 	!apt-get install neofetch
-	neofetch    
-![](https://i.imgur.com/p0o3EOX.jpg)      
-
+	neofetch          
 
 Result:     
 ![](https://i.imgur.com/EpgJ6qv.jpg)     
