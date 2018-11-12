@@ -45,7 +45,8 @@ About: Google Colab, Google’s free cloud service for AI developers. With Colab
 	print(tf.test.gpu_device_name())
 	print('------------------------------------------')       
 
-![](https://i.imgur.com/p0o3EOX.jpg)  
+![](https://i.imgur.com/EpgJ6qv.jpg)  
+ 
 
 #### neofetch info ####
 
@@ -54,14 +55,9 @@ About: Google Colab, Google’s free cloud service for AI developers. With Colab
 	neofetch          
 
 Result:     
-![](https://i.imgur.com/EpgJ6qv.jpg)     
-
-
-
+![](https://i.imgur.com/p0o3EOX.jpg)          
 ### Ref ###
 [1] [Google Colab Free GPU Tutorial](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)    
 [2] [Training and serving a realtime mobile object detector in 30 minutes with Cloud TPUs](https://medium.com/tensorflow/training-and-serving-a-realtime-mobile-object-detector-in-30-minutes-with-cloud-tpus-b78971cf1193)     
-[3] [Google Colab 免费GPU服务器使用教程](https://blog.csdn.net/cocoaqin/article/details/79184540)     
-
-   
-[3] [code](https://github.com/clhne/colab_demo)  
+[3] [Google Colab 免费GPU服务器使用教程](https://blog.csdn.net/cocoaqin/article/details/79184540)           
+[4] [code](https://github.com/clhne/colab_demo)  
