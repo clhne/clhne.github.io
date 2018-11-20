@@ -12,16 +12,17 @@ author: CLH
 
 # TensorFlow Inference Error #
 When run Tensorflow_Inference.ipynb in ipython, an error occurred:      
-> ValueError: Variable resnet_v1_50/conv1/weights already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
-
-  >File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 277, in variable
-    aggregation=aggregation)
-  File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args
-    return func(*args, **current_args)
-  File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 350, in model_variable
+> ValueError: Variable resnet_v1_50/conv1/weights already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:    
+File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 277, in variable
+    aggregation=aggregation)   
+File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/arg_scope.py", line 182, in func_with_args    
+    return func(*args, **current_args)    
+File "/home/lc/lcl/py3/lib/python3.6/site-packages/tensorflow/contrib/framework/python/ops/variables.py", line 350, in model_variable     
     aggregation=aggregation)      
-Solution:     
-Insert the following code at the beginning of the block.    
+  
+Solution:      
+Insert the following code at the beginning of the block.   
+ 
 	tf.reset_default_graph()     
 
 ![](https://i.imgur.com/ZUuXSOk.jpg)         
