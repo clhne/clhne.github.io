@@ -42,6 +42,6 @@ File "/home/lc/lcl/py3/lib/python3.6/site-packages/IPython/core/magics/execution
 [1] [DeepLearningFrameworks](https://github.com/ilkarman/DeepLearningFrameworks/blob/master/notebooks/Tensorflow_Inference.ipynb)    
 [2] [TensorFlow-Slim image classification model library](https://github.com/tensorflow/models/tree/master/research/slim)     
 [3] [Error in notebook: "ValueError: Variable conv1/weights already exists, disallowed. Did you mean to set reuse=True in VarScope" #8](https://github.com/kratzert/finetune_alexnet_with_tensorflow/issues/8)       
-[4] [TF API r1.12](https://www.tensorflow.org/api_docs/python/tf/reset_default_graph)
-[5] [Remove nodes from graph or reset entire default graph](https://stackoverflow.com/questions/33765336/remove-nodes-from-graph-or-reset-entire-default-graph)     
+[4] [TF API r1.12](https://www.tensorflow.org/api_docs/python/tf/reset_default_graph)    
+[5] [Remove nodes from graph or reset entire default graph](https://stackoverflow.com/questions/33765336/remove-nodes-from-graph-or-reset-entire-default-graph)       
        
