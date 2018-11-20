@@ -30,4 +30,3 @@ Insert the following code at the beginning of the block.
 [1] [DeepLearningFrameworks](https://github.com/ilkarman/DeepLearningFrameworks/blob/master/notebooks/Tensorflow_Inference.ipynb)    
 [2] [TensorFlow-Slim image classification model library](https://github.com/tensorflow/models/tree/master/research/slim)     
 [3] [Error in notebook: "ValueError: Variable conv1/weights already exists, disallowed. Did you mean to set reuse=True in VarScope" #8](https://github.com/kratzert/finetune_alexnet_with_tensorflow/issues/8)           
-[4] [code](https://github.com/clhne/colab_demo)  
